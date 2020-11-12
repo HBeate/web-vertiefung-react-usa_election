@@ -14,7 +14,7 @@ class Vote extends Component {
         this.setState({
             numberOfVotes:newAmountOfVotes
         })
-        this.props.onIncrement(newAmountOfVotes, this.props);
+        this.props.onIncrement(newAmountOfVotes, this.props.name);
     }
     render() {
         return (
